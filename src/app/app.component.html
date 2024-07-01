@@ -14,7 +14,9 @@
     <div class="user-container">
       <app-user *ngFor="let user of userlist" 
       userid="{{user.id}}" name="{{user.name}}" username="{{user.username}}"
-      password="{{user.password}}" department="{{user.department}}"/>
+      password="{{user.password}}" department="{{user.department}}"
+      (deletionEvent)="getAllUsers($event)"/>
+      <app-adduser (additionEvent)="getAllUsers($event)"/>
     </div>
   </div>
   <div class="footer">

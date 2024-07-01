@@ -13,7 +13,7 @@ export class AppComponent implements OnInit{
   constructor(private userfetch: UserFetchService) {}
 
   async ngOnInit() {
-    this.userlist = await this.getAllUsers();
+    await this.getAllUsers("INITIALIZING");
   }
 
   async getSpecificUser(index:number) {
@@ -21,8 +21,9 @@ export class AppComponent implements OnInit{
     return result;
   }
 
-  async getAllUsers() {
+  async getAllUsers(message:string) {
+    console.log(message);
     const result = await this.userfetch.grabAllUsers();
-    return result;
+    this.userlist = result;
   }
 }

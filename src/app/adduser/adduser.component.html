@@ -1,0 +1,10 @@
+<div class="useradd-card">
+    <form (submit)="addUser()" class="form-area">
+        <input class="id" type="text" name="id" placeholder="Enter id..." required="required" [(ngModel)]="id"/>
+        <input class="name" type="text" name="name" placeholder="Enter name..." required="required" [(ngModel)]="name"/>
+        <input class="username" type="text" name="username" placeholder="Enter username..." required="required" [(ngModel)]="username"/>
+        <input class="password" type="text" name="password" placeholder="Enter password..." required="required" [(ngModel)]="password"/>
+        <input class="department" type="text" name="department" placeholder="Enter department..." required="required" [(ngModel)]="department"/>
+        <button class="submit-btn" type="submit">Create User</button>
+    </form>
+</div>

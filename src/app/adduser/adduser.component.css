@@ -1,4 +1,4 @@
-.user-card {
+.useradd-card {
     min-width: 200px;
     display: flex;
     flex-direction: column;
@@ -12,16 +12,12 @@
     background-color: aliceblue;
 }
 
-.user-card:hover {
+.useradd-card:hover {
     -webkit-transform: scale(1.05);
 }
 
-.user-card > h3,h4 {
-    margin: 0px;
-    padding: 5px;
-}
-
-.user-card > h4 {
-    align-self: flex-start;
-    padding-left: 10px;
+.form-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
