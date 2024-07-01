@@ -20,11 +20,48 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.navbar > div {
+.logo-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 40px;
+}
+
+.logo {
+    transition: ease 0.25s;
+}
+
+.logo:hover {
+    -webkit-transform: scale(1.05);
+}
+
+.header-area {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-size: 22px;
+}
+
+.links-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 60px;
+}
+
+.links-area > a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    transition: ease 0.25s;
+}
+
+.links-area > a:hover {
+    -webkit-transform: scale(1.1);
 }
 
 .body-area {

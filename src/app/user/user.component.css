@@ -1,5 +1,6 @@
 .user-card {
     min-width: 200px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,12 +17,43 @@
     -webkit-transform: scale(1.05);
 }
 
-.user-card > h3,h4 {
+.card-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.card-contents > h3,h4 {
     margin: 0px;
     padding: 5px;
 }
 
-.user-card > h4 {
-    align-self: flex-start;
-    padding-left: 10px;
+.header-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.del-btn {
+    padding: 6px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    transition: ease 0.25s;
+}
+.del-btn:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    background-color: rgb(188, 2, 2);
+}
+
+.del-btn:active {
+    -webkit-transform: scale(1.15);
+    background-color: rgb(157, 2, 2);
 }
