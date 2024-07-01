@@ -8,13 +8,6 @@
       "department": "Information Technology"
     },
     {
-      "id": "2",
-      "name": "Henry Smith",
-      "username": "henry1",
-      "password": "henry2",
-      "department": "Human Resources"
-    },
-    {
       "id": "3",
       "name": "Nathan Smith",
       "username": "nathan1",
@@ -27,13 +20,6 @@
       "username": "ethan1",
       "password": "ethan2",
       "department": "Media Resources"
-    },
-    {
-      "id": "5",
-      "name": "Jay Smith",
-      "username": "jay1",
-      "password": "jay2",
-      "department": "Sales"
     }
   ]
 }

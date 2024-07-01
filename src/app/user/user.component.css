@@ -5,12 +5,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.517);
     border-radius: 8px;
     margin: 0px;
     padding: 20px;
     transition: ease 0.25s;
     background-color: aliceblue;
+    box-shadow: 6px 5px 8px rgba(0, 0, 0, 0.498);
 }
 
 .user-card:hover {
@@ -23,6 +24,11 @@
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.163);
+    border-radius: 10px;
+    background-color: rgb(229, 238, 244);
 }
 
 .card-contents > h3,h4 {
