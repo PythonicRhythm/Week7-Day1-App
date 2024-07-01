@@ -29,6 +29,11 @@
     border: 1px solid black;
     border-radius: 5px;
     padding: 3px;
+    transition: ease 0.25s;
+}
+
+.form-area > input:focus-within {
+    -webkit-transform: scale(1.05);
 }
 
 .submit-btn {
