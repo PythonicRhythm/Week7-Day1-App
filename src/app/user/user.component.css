@@ -1,0 +1,26 @@
+.user-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 0px;
+    padding: 20px;
+    transition: ease 0.25s;
+    background-color: aliceblue;
+}
+
+.user-card:hover {
+    -webkit-transform: scale(1.05);
+}
+
+.user-card > h3,h4 {
+    margin: 0px;
+    padding: 5px;
+}
+
+.user-card > h4 {
+    align-self: flex-start;
+    padding-left: 10px;
+}
